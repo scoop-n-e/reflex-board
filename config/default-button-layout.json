@@ -1,0 +1,60 @@
+{
+  "name": "default",
+  "width": 320,
+  "height": 180,
+  "buttons": [
+    {
+      "id": "1",
+      "label": "1",
+      "position": { "x": 160, "y": 28 },
+      "diameter": 40
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "position": { "x": 248, "y": 36 },
+      "diameter": 40
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "position": { "x": 292, "y": 90 },
+      "diameter": 40
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "position": { "x": 248, "y": 144 },
+      "diameter": 40
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "position": { "x": 160, "y": 152 },
+      "diameter": 40
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "position": { "x": 72, "y": 144 },
+      "diameter": 40
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "position": { "x": 28, "y": 90 },
+      "diameter": 40
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "position": { "x": 72, "y": 36 },
+      "diameter": 40
+    }
+  ],
+  "player": {
+    "position": { "x": 160, "y": 90 },
+    "iconSize": 48,
+    "color": "#57534e"
+  }
+}
