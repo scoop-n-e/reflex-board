@@ -15,14 +15,13 @@
 - プロジェクトが要求する Node.js 22.18.0 / pnpm 10.15.0（Volta 経由で自動指定）
 
 ## 環境構築
-1. Volta をインストール
-   ```bash
-   curl https://get.volta.sh | bash
-   exec $SHELL
-   ```
+1. [Volta をインストール](https://docs.volta.sh/guide/getting-started)
+
 2. 要求されるランタイムを Volta で導入（グローバル）
    ```bash
-   volta install node@22.18.0 pnpm@10.15.0 corepack
+   volta install corepack
+   volta install node@22
+   corepack enable
    ```
    プロジェクト内の `package.json` にも Volta 設定があるため、リポジトリに入ると自動的に同じバージョンが利用されます。
 3. 依存関係をインストール
